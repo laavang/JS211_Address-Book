@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 5% 10%;
+
+}
+
+button {
+    padding: 5px 10px;
+	background: #9ca9bf;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+
+
+img {
+	height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-image {
+    float: left;
+}
+
+.contact::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contact {
+    margin: 40px 0px;
+}
+
+#contacts {
+    margin: 0px;
+    padding: 0px;
+}
+
+
